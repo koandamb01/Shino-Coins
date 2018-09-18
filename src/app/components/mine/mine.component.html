@@ -1,0 +1,7 @@
+<div class="mine-coins">
+  <h1>Mine ShintoCoins</h1>
+  <p>Here you can mine ShintoCOins by being the first to solve the algorithms:</p>
+  <p>What is the 7th Fibonacci sequence number?</p>
+  <input type="text" [(ngModel)]="answer" name="answer" placeholder="number"><button (click)="checkMine()">Mine</button>
+  <p *ngIf="message" style="color: red;">{{ message }}</p>
+</div>

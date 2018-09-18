@@ -1,0 +1,7 @@
+<div class="mine-coins">
+  <h1>Buy ShintoCoins</h1>
+  <p>Current ShintoCoin Value: $1.00</p>
+  <p>Number of ShintoCOins Owned: 0</p>
+  <input type="text" [(ngModel)]="answer" name="answer" placeholder="number"><button (click)="checkMine()">Buy</button>
+  <p *ngIf="message" style="color: red;">{{ message }}</p>
+</div>

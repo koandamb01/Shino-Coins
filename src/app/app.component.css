@@ -1,0 +1,39 @@
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.nav{
+    margin: auto;
+}
+
+.nav ul{
+    text-align: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 18px;
+}
+
+.nav ul li button{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 2px 25px;
+    background-color: #ecf0f1;
+}
+
+.mine-coins input{
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.mine-coins button{
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 2px 25px;
+    background-color: #ecf0f1;
+}
